@@ -5,7 +5,7 @@ import banner from "@/assets/game/banner.png.asset.json";
 import bridgeOverlay from "@/assets/game/bridge_overlay.png.asset.json";
 import { Stage } from "./Stage";
 import { BAR_SECONDS, PIXEL_FRAME_CLIP, Logo, MenuBlock, MenuList, Sprite, WaveText, type MenuItem } from "./MenuParts";
-import { playSound, preloadSounds, unlockAudio } from "./sound";
+import { playSound, preloadSounds, stopLauncherAmbience, unlockAudio } from "./sound";
 import { relevantFiles, useExtraction, type PickedFile } from "./useExtraction";
 import { getManifest, unsealAssets, type Manifest } from "./storage";
 import { Game } from "@/game/Game";
@@ -26,6 +26,9 @@ export function Launcher() {
   const [playNote, setPlayNote] = useState<string | null>(null);
   const [playing, setPlaying] = useState(false);
   useEffect(() => () => clearVault(), []);
+  useEffect(() => {
+    if (playing) stopLauncherAmbience();
+  }, [playing]);
   const filesInput = useRef<HTMLInputElement>(null);
   const { state, start, fail } = useExtraction();
   const [booting, setBooting] = useState(true);
@@ -282,31 +285,39 @@ export function Launcher() {
   );
 }
 
-/** Pixel-art bar in the game's palette: stepped-corner frame and chunky segments like the menu UI. */
-const SEGMENTS = 24;
-/** Each segment loses one (scaled) pixel at every corner so it reads as slightly rounded. */
-const SEGMENT_CLIP =
-  "polygon(4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px), 0 4px, 4px 4px)";
+/** Bar size inside the frame, and one frame pixel (the 8px step of PIXEL_FRAME_CLIP). */
+const BAR_W = 1048;
+const BAR_H = 36;
+const BAR_PX = 8;
+/** A rectangle with one pixel cut off each corner, so it reads as just slightly rounded. */
+const ROUNDED_CLIP = `polygon(${BAR_PX}px 0, calc(100% - ${BAR_PX}px) 0, calc(100% - ${BAR_PX}px) ${BAR_PX}px, 100% ${BAR_PX}px, 100% calc(100% - ${BAR_PX}px), calc(100% - ${BAR_PX}px) calc(100% - ${BAR_PX}px), calc(100% - ${BAR_PX}px) 100%, ${BAR_PX}px 100%, ${BAR_PX}px calc(100% - ${BAR_PX}px), 0 calc(100% - ${BAR_PX}px), 0 ${BAR_PX}px, ${BAR_PX}px ${BAR_PX}px)`;
+
+/** Pixel-art loading bar in the game's palette: stepped frame, then an empty track and a fill bar. */
 function ProgressBar({ value, label }: { value: number; label: string }) {
-  const filled = Math.floor(value * SEGMENTS + 1e-6);
+  const v = Math.max(0, Math.min(1, value));
+  // Snap the fill to whole frame pixels; once visible it is at least 3 pixels so its corners show.
+  const steps = Math.round((v * BAR_W) / BAR_PX);
+  const fillW = steps === 0 ? 0 : Math.max(3, steps) * BAR_PX;
   return (
     <div className="mt-8 flex flex-col items-center gap-3">
       <div
         role="progressbar"
         aria-valuemin={0}
         aria-valuemax={100}
-        aria-valuenow={Math.round(value * 100)}
+        aria-valuenow={Math.round(v * 100)}
         className="bg-kotb-white p-2"
         style={{ clipPath: PIXEL_FRAME_CLIP }}
       >
-        <div className="flex gap-2 bg-kotb-outline p-3" style={{ clipPath: PIXEL_FRAME_CLIP }}>
-          {Array.from({ length: SEGMENTS }, (_, i) => (
-            <span
-              key={i}
-              className={i < filled ? "bg-kotb-background" : "bg-kotb-black/40"}
-              style={{ width: 36, height: 36, clipPath: SEGMENT_CLIP }}
-            />
-          ))}
+        <div className="bg-kotb-outline p-3" style={{ clipPath: PIXEL_FRAME_CLIP }}>
+          <div className="relative bg-kotb-black/40" style={{ width: BAR_W, height: BAR_H, clipPath: ROUNDED_CLIP }}>
+            {fillW > 0 && (
+              <div
+                data-testid="progress-fill"
+                className="absolute inset-y-0 left-0 bg-kotb-background"
+                style={{ width: Math.min(BAR_W, fillW), clipPath: ROUNDED_CLIP }}
+              />
+            )}
+          </div>
         </div>
       </div>
       <span className="text-[38px] leading-none tracking-[3px] text-kotb-white">
