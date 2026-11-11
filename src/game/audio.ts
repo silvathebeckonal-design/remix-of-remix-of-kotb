@@ -18,6 +18,8 @@ let effects: GainNode | null = null;
 let ambience: GainNode | null = null;
 const buffers = new Map<string, Promise<AudioBuffer | null>>();
 const loops = new Map<string, AudioBufferSourceNode>();
+/** Latest loop request per sound, so a stopLoop before the clip finished loading still wins. */
+const loopRequests = new Map<string, object>();
 const waiting: { name: string; at: number }[] = [];
 let muted = false;
 
@@ -127,8 +129,11 @@ function start(name: string) {
   const bus = AMBIENT.has(name) ? ambience : effects;
   const pitch = pickPitch(def);
   const requested = performance.now();
+  const token = {};
+  if (def.loop) loopRequests.set(name, token);
   void loadClip(clip).then((buf) => {
     if (!buf || !ctx) return;
+    if (def.loop && loopRequests.get(name) !== token) return;
     // A one-shot that only finished loading long after its moment would sound out of place.
     if (!def.loop && performance.now() - requested > 1500) return;
     const src = ctx.createBufferSource();
@@ -169,6 +174,7 @@ export function isLooping(name: string) {
 }
 
 export function stopLoop(name: string) {
+  loopRequests.delete(name);
   loops.get(name)?.stop();
   loops.delete(name);
 }
