@@ -1,11 +1,11 @@
 {
-  "asset_id": "b91c4063-ff3d-4ff8-af41-65bb0a351bbd",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:49:14Z",
-  "original_filename": "chess_piece_pawn_ascention.mp3",
+  "version": 1,
+  "asset_id": "1819e169-bb17-45ee-9313-bb6ebfda6a68",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/b91c4063-ff3d-4ff8-af41-65bb0a351bbd/chess_piece_pawn_ascention.mp3",
-  "size": 63155,
-  "url": "/__l5e/assets-v1/b91c4063-ff3d-4ff8-af41-65bb0a351bbd/chess_piece_pawn_ascention.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/1819e169-bb17-45ee-9313-bb6ebfda6a68/chess_piece_pawn_ascention.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/1819e169-bb17-45ee-9313-bb6ebfda6a68/chess_piece_pawn_ascention.mp3",
+  "original_filename": "chess_piece_pawn_ascention.mp3",
+  "size": 52700,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:35:23Z"
 }

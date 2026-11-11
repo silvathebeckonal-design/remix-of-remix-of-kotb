@@ -1,11 +1,11 @@
 {
-  "asset_id": "717bd5b5-fd8f-416f-b08f-91ace06bd3a8",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-10T15:01:05Z",
-  "original_filename": "titel_impact.mp3",
+  "version": 1,
+  "asset_id": "16f0cb51-87c0-4964-9bb2-9f37794da3ab",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/717bd5b5-fd8f-416f-b08f-91ace06bd3a8/titel_impact.mp3",
-  "size": 22490,
-  "url": "/__l5e/assets-v1/717bd5b5-fd8f-416f-b08f-91ace06bd3a8/titel_impact.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/16f0cb51-87c0-4964-9bb2-9f37794da3ab/titel_impact.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/16f0cb51-87c0-4964-9bb2-9f37794da3ab/titel_impact.mp3",
+  "original_filename": "titel_impact.mp3",
+  "size": 35174,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:36:41Z"
 }

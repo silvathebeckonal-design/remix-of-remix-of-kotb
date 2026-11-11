@@ -1,11 +1,11 @@
 {
-  "asset_id": "198c31d3-0047-4ea2-ab11-b08faf9329c6",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:49:28Z",
-  "original_filename": "chess_piece_slip.mp3",
+  "version": 1,
+  "asset_id": "0653cc16-43a8-44d8-886f-d76b47a9afd8",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/198c31d3-0047-4ea2-ab11-b08faf9329c6/chess_piece_slip.mp3",
-  "size": 21359,
-  "url": "/__l5e/assets-v1/198c31d3-0047-4ea2-ab11-b08faf9329c6/chess_piece_slip.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/0653cc16-43a8-44d8-886f-d76b47a9afd8/chess_piece_slip.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/0653cc16-43a8-44d8-886f-d76b47a9afd8/chess_piece_slip.mp3",
+  "original_filename": "chess_piece_slip.mp3",
+  "size": 16027,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:35:32Z"
 }

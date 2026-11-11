@@ -1,11 +1,11 @@
 {
-  "asset_id": "b273a3b3-16f5-4a8f-afcf-e1074b9c26a0",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:50:18Z",
-  "original_filename": "duck_honk-04.mp3",
+  "version": 1,
+  "asset_id": "b560b6a3-c799-4044-be50-e4c4eb7754d6",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/b273a3b3-16f5-4a8f-afcf-e1074b9c26a0/duck_honk-04.mp3",
-  "size": 8403,
-  "url": "/__l5e/assets-v1/b273a3b3-16f5-4a8f-afcf-e1074b9c26a0/duck_honk-04.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/b560b6a3-c799-4044-be50-e4c4eb7754d6/duck_honk-04.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/b560b6a3-c799-4044-be50-e4c4eb7754d6/duck_honk-04.mp3",
+  "original_filename": "duck_honk-04.mp3",
+  "size": 11838,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:36:08Z"
 }

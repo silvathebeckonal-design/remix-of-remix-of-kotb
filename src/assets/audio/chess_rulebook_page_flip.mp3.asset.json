@@ -1,11 +1,11 @@
 {
-  "asset_id": "39b87d2c-7e36-420b-ae5a-c805cb80fa29",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-10T15:01:24Z",
-  "original_filename": "chess_rulebook_page_flip.mp3",
+  "version": 1,
+  "asset_id": "f58d97fd-2ea6-45dd-afc4-ac4e83a17740",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/39b87d2c-7e36-420b-ae5a-c805cb80fa29/chess_rulebook_page_flip.mp3",
-  "size": 4238,
-  "url": "/__l5e/assets-v1/39b87d2c-7e36-420b-ae5a-c805cb80fa29/chess_rulebook_page_flip.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/f58d97fd-2ea6-45dd-afc4-ac4e83a17740/chess_rulebook_page_flip.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/f58d97fd-2ea6-45dd-afc4-ac4e83a17740/chess_rulebook_page_flip.mp3",
+  "original_filename": "chess_rulebook_page_flip.mp3",
+  "size": 6742,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:35:43Z"
 }

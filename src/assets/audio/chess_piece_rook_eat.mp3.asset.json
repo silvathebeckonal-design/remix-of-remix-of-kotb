@@ -1,11 +1,11 @@
 {
-  "asset_id": "5a961b81-cc88-447c-9684-b44d86d2e6aa",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:49:24Z",
-  "original_filename": "chess_piece_rook_eat.mp3",
+  "version": 1,
+  "asset_id": "45d10d71-cc63-4a82-bcde-ff1ce6c0a3e3",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/5a961b81-cc88-447c-9684-b44d86d2e6aa/chess_piece_rook_eat.mp3",
-  "size": 7149,
-  "url": "/__l5e/assets-v1/5a961b81-cc88-447c-9684-b44d86d2e6aa/chess_piece_rook_eat.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/45d10d71-cc63-4a82-bcde-ff1ce6c0a3e3/chess_piece_rook_eat.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/45d10d71-cc63-4a82-bcde-ff1ce6c0a3e3/chess_piece_rook_eat.mp3",
+  "original_filename": "chess_piece_rook_eat.mp3",
+  "size": 6850,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:35:29Z"
 }

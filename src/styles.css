@@ -92,10 +92,10 @@
   --kotb-utility: oklch(0.821 0.109 76.4);
 }
 
-/* The game's own font (alagard.ttf with its pixel blocks merged into solid outlines), served from the asset CDN */
+/* The game's own font: alagard.ttf with every glyph's pixel squares unioned into single outlines and hinting removed, so no rasterizer draws seams between pixels */
 @font-face {
   font-family: "Alagard";
-  src: url("/__l5e/assets-v1/23ccd78c-6919-4756-af80-92e54d98b623/alagard_merged.ttf") format("truetype");
+  src: url("/__l5e/assets-v1/aaf67384-588a-4b8f-9ad6-5342ce21ad6f/alagard_solid.ttf") format("truetype");
   font-display: block;
 }
 

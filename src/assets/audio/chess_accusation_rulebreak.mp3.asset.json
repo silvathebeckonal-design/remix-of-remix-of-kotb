@@ -1,11 +1,11 @@
 {
-  "asset_id": "ae5606cd-083e-450c-b738-9cfd89c6e7e6",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:48:44Z",
-  "original_filename": "chess_accusation_rulebreak.mp3",
+  "version": 1,
+  "asset_id": "d9b190cb-4c9c-4e3a-b500-b57f5c9ee37b",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/ae5606cd-083e-450c-b738-9cfd89c6e7e6/chess_accusation_rulebreak.mp3",
-  "size": 216128,
-  "url": "/__l5e/assets-v1/ae5606cd-083e-450c-b738-9cfd89c6e7e6/chess_accusation_rulebreak.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/d9b190cb-4c9c-4e3a-b500-b57f5c9ee37b/chess_accusation_rulebreak.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/d9b190cb-4c9c-4e3a-b500-b57f5c9ee37b/chess_accusation_rulebreak.mp3",
+  "original_filename": "chess_accusation_rulebreak.mp3",
+  "size": 48228,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:34:53Z"
 }

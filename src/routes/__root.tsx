@@ -93,7 +93,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.png", type: "image/png" },
       {
         rel: "preload",
-        href: "/__l5e/assets-v1/23ccd78c-6919-4756-af80-92e54d98b623/alagard_merged.ttf",
+        href: "/__l5e/assets-v1/aaf67384-588a-4b8f-9ad6-5342ce21ad6f/alagard_solid.ttf",
         as: "font",
         type: "font/ttf",
         crossOrigin: "anonymous",

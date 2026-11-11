@@ -1,11 +1,11 @@
 {
-  "asset_id": "336a426a-aae9-434d-b70d-3f7a1eeff87d",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:50:47Z",
-  "original_filename": "transition_fade_out.mp3",
+  "version": 1,
+  "asset_id": "756051ba-fbc5-40e2-9495-a98ae6d3eff1",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/336a426a-aae9-434d-b70d-3f7a1eeff87d/transition_fade_out.mp3",
-  "size": 51035,
-  "url": "/__l5e/assets-v1/336a426a-aae9-434d-b70d-3f7a1eeff87d/transition_fade_out.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/756051ba-fbc5-40e2-9495-a98ae6d3eff1/transition_fade_out.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/756051ba-fbc5-40e2-9495-a98ae6d3eff1/transition_fade_out.mp3",
+  "original_filename": "transition_fade_out.mp3",
+  "size": 38003,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:36:48Z"
 }

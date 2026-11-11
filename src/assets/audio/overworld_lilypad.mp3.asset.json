@@ -1,11 +1,11 @@
 {
-  "asset_id": "c81d8bbd-7728-4adb-b0b1-b6ca89e7ac33",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:50:36Z",
-  "original_filename": "overworld_lilypad.mp3",
+  "version": 1,
+  "asset_id": "5af79460-77cf-4dc7-8594-e9b3dc004235",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/c81d8bbd-7728-4adb-b0b1-b6ca89e7ac33/overworld_lilypad.mp3",
-  "size": 7985,
-  "url": "/__l5e/assets-v1/c81d8bbd-7728-4adb-b0b1-b6ca89e7ac33/overworld_lilypad.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/5af79460-77cf-4dc7-8594-e9b3dc004235/overworld_lilypad.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/5af79460-77cf-4dc7-8594-e9b3dc004235/overworld_lilypad.mp3",
+  "original_filename": "overworld_lilypad.mp3",
+  "size": 4579,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:36:31Z"
 }
