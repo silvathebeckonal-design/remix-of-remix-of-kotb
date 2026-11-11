@@ -1,11 +1,11 @@
 {
-  "asset_id": "b7cb1119-a72b-40f3-9785-201bf7584cf0",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:49:59Z",
-  "original_filename": "duck_flap.mp3",
+  "version": 1,
+  "asset_id": "9db1ebee-9fa2-4612-91d8-91a8da8c895e",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/b7cb1119-a72b-40f3-9785-201bf7584cf0/duck_flap.mp3",
-  "size": 9261,
-  "url": "/__l5e/assets-v1/b7cb1119-a72b-40f3-9785-201bf7584cf0/duck_flap.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/9db1ebee-9fa2-4612-91d8-91a8da8c895e/duck_flap.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/9db1ebee-9fa2-4612-91d8-91a8da8c895e/duck_flap.mp3",
+  "original_filename": "duck_flap.mp3",
+  "size": 6885,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:35:54Z"
 }

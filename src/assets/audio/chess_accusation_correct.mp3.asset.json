@@ -1,11 +1,11 @@
 {
-  "asset_id": "c2442bbb-e0d6-480a-a285-f80b8e33ed20",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-10T15:01:17Z",
-  "original_filename": "chess_accusation_correct.mp3",
+  "version": 1,
+  "asset_id": "e4856ceb-036b-44a5-90cd-5364331b5d38",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/c2442bbb-e0d6-480a-a285-f80b8e33ed20/chess_accusation_correct.mp3",
-  "size": 35009,
-  "url": "/__l5e/assets-v1/c2442bbb-e0d6-480a-a285-f80b8e33ed20/chess_accusation_correct.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/e4856ceb-036b-44a5-90cd-5364331b5d38/chess_accusation_correct.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/e4856ceb-036b-44a5-90cd-5364331b5d38/chess_accusation_correct.mp3",
+  "original_filename": "chess_accusation_correct.mp3",
+  "size": 57061,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:34:44Z"
 }

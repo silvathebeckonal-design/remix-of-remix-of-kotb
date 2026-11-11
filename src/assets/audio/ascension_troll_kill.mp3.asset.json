@@ -1,11 +1,11 @@
 {
-  "asset_id": "4ed146b3-94ff-45fe-95be-9113b3507c5c",
-  "content_type": "audio/mpeg",
-  "created_at": "2026-11-11T06:48:28Z",
-  "original_filename": "ascension_troll_kill.mp3",
+  "version": 1,
+  "asset_id": "63cd47fc-5a20-4416-a5b4-8a6a1847a1a2",
   "project_id": "c3e8f984-790e-41b7-9002-f4b722ea390a",
-  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/4ed146b3-94ff-45fe-95be-9113b3507c5c/ascension_troll_kill.mp3",
-  "size": 103279,
-  "url": "/__l5e/assets-v1/4ed146b3-94ff-45fe-95be-9113b3507c5c/ascension_troll_kill.mp3",
-  "version": 1
+  "url": "/__l5e/assets-v1/63cd47fc-5a20-4416-a5b4-8a6a1847a1a2/ascension_troll_kill.mp3",
+  "r2_key": "a/v1/c3e8f984-790e-41b7-9002-f4b722ea390a/63cd47fc-5a20-4416-a5b4-8a6a1847a1a2/ascension_troll_kill.mp3",
+  "original_filename": "ascension_troll_kill.mp3",
+  "size": 101278,
+  "content_type": "audio/mpeg",
+  "created_at": "2026-11-11T07:34:34Z"
 }
