@@ -1,4 +1,5 @@
-// Every original AudioClip (decoded from the game files), keyed by clip name.
+// Every original AudioClip, decoded from the game's FSB5 bank (sharedassets0.resource) once,
+// without FMOD loop repeats, keyed by clip name.
 import a0 from "@/assets/audio/ascension_fall.mp3.asset.json";
 import a1 from "@/assets/audio/ascension_rise.mp3.asset.json";
 import a2 from "@/assets/audio/ascension_rumble.mp3.asset.json";
@@ -92,4 +93,54 @@ export const CLIP_URLS: Record<string, string> = {
   "transition_fade_out": a43.url,
   "troll_critical_hit": a44.url,
   "troll_dialog_voice": a45.url,
+};
+
+/** Exact clip length in seconds (AudioClip.m_Length); decoded MP3s are trimmed to it so loops stay seamless. */
+export const CLIP_SECONDS: Record<string, number> = {
+  "ascension_fall": 5.38075,
+  "ascension_rise": 5.38075,
+  "ascension_rumble": 36.0096,
+  "ascension_troll_kill": 6.39996,
+  "chess_accusation_chesspiece": 3.22322,
+  "chess_accusation_confirm": 3.22322,
+  "chess_accusation_correct": 3.95088,
+  "chess_accusation_false": 3.64286,
+  "chess_accusation_in": 3.95088,
+  "chess_accusation_rulebreak": 3.39286,
+  "chess_piece_capture": 0.44302,
+  "chess_piece_castle_merge": 1.25444,
+  "chess_piece_castle_scraps": 0.63125,
+  "chess_piece_drop": 0.23667,
+  "chess_piece_grab": 0.23667,
+  "chess_piece_king_respawn": 0.56104,
+  "chess_piece_landmine_explode": 0.56583,
+  "chess_piece_landmine_spawn": 0.37485,
+  "chess_piece_pawn_ascention": 3.87902,
+  "chess_piece_queen_worldflip": 1.45646,
+  "chess_piece_rook_eat": 0.38,
+  "chess_piece_slip": 1.26862,
+  "chess_rulebook_fog_dissipate": 4.18549,
+  "chess_rulebook_fog_rumble": 0.59537,
+  "chess_rulebook_link_hover": 0.24843,
+  "chess_rulebook_page_flip": 0.55202,
+  "chess_rulebook_slide_in": 0.81243,
+  "chess_rulebook_slide_out": 0.8188,
+  "duck_flap": 0.52406,
+  "duck_honk-01": 0.26379,
+  "duck_honk-02": 0.25474,
+  "duck_honk-03": 0.30172,
+  "duck_honk-04": 0.45483,
+  "duck_walk-01": 0.18552,
+  "duck_walk-02": 0.42965,
+  "duck_walk-03": 0.30596,
+  "duck_walk-04": 0.15623,
+  "overworld_bridge_ambience": 151.35265,
+  "overworld_lilypad": 0.42991,
+  "overworld_manhole_blast": 1.96388,
+  "player_heart_pounce": 0.36447,
+  "titel_impact": 3.80268,
+  "transition_fade_in": 3.28215,
+  "transition_fade_out": 3.12347,
+  "troll_critical_hit": 2.22744,
+  "troll_dialog_voice": 0.13177,
 };
