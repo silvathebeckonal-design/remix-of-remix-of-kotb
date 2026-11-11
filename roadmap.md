@@ -1,0 +1,12 @@
+# Tasks
+- [x] Match credits to the former version text, bottom-left, using default text wobble; remove version and startup delay.
+- [x] Configure a bundled offline Android web wrapper with application ID `cxs.kingofthebridge.port`.
+- [x] Use the replacement 640×640 PNG for all Android icon sizes and browser favicon.
+- [x] Implement editable JSON launcher saves privately first, then mirror to `Android/media/cxs.kingofthebridge.port`.
+- [x] Verify launcher in desktop/landscape viewports, JSON tests, and all downloadable offline asset inputs; document native build/signing limitations.
+- [x] Accept archives with at least 70% of expected files.
+- [x] Build and sign release APK.
+- [ ] Verify offline launch and save writes on a real Android device — needs the user's phone; gameplay saves also require the absent gameplay implementation.- [ ] Remove button backgrounds; PLAY runs the full game from the player's own extracted files.
+- [ ] Ship no original game pictures/sounds in the game port; load them only from the player's archive (stored encrypted, no gallery/download).
+- [ ] Game saves go to the editable Android JSON save.
+- [ ] Rebuild APK and provide a clean source ZIP.

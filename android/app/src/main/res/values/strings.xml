@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">King of the Bridge</string>
+    <string name="title_activity_main">King of the Bridge</string>
+    <string name="package_name">cxs.kingofthebridge.port</string>
+    <string name="custom_url_scheme">cxs.kingofthebridge.port</string>
+</resources>
